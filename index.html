@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PUC Result</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="header">
+    <h1>ಕರ್ನಾಟಕ ಶಾಲಾ ಪರೀಕ್ಷೆ ಮತ್ತು ಮೌಲ್ಯಮಾಪನ ಮಂಡಳಿ</h1>
+    <h2>KARNATAKA SCHOOL EXAMINATION AND ASSESSMENT BOARD</h2>
+  </div>
+
+  <div class="title-bar">
+    2026ರ ದ್ವಿತೀಯ ಪಿಯುಸಿ ಸಂಯೋಜಿತ ಫಲಿತಾಂಶ<br>
+    2026 II PUC CONSOLIDATED RESULT
+  </div>
+
+  <div class="form-box">
+    <p>Enter Register Number :</p>
+    <input type="text" id="regno">
+
+    <p>Select Stream :</p>
+    <select id="course">
+      <option value="">Select</option>
+      <option value="Arts">Arts</option>
+      <option value="Science">Science</option>
+      <option value="Commerce">Commerce</option>
+    </select>
+
+    <div class="buttons">
+      <button onclick="checkResult()">View</button>
+      <button onclick="location.reload()">Clear</button>
+    </div>
+
+    <p id="error"></p>
+  </div>
+
+  <div class="footer">
+    Disclaimer: Results are for immediate information only.
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
